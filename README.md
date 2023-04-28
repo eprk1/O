@@ -1,0 +1,1 @@
+A repo for make, cmake, shell experiments
