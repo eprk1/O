@@ -5,7 +5,9 @@ Makefile -> Makefile.2
 1. A VAR in Makefile can be seen in Makefile.2 if it is above the include line
 2. A VAR in Makefile.2 can be seen in Makefile after included
 3. A target in Makefile.2 can be added as a pre-req to a target in Makefile
-4. If a target with the same name is defined in both Makefile and Makefile.2 then,
+4. A target in Makefile can be added as a pre-req to a target in Makefile.2 even
+    if it was defined after included
+5. If a target with the same name is defined in both Makefile and Makefile.2 then,
     the logic in Makefile is ran (latter). However, pre-reqs are inherited from
     Makefile.2
     """
