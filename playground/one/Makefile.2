@@ -1,0 +1,14 @@
+hello:
+	echo "hello from Makefile.2"
+
+
+$(info ${BUILDSTREAM})
+
+ifeq (0,${BUILDSTREAM})
+helloo:
+	echo "helloo from Makefile.2 WITH BUILDSTREAM=0" 
+else
+helloo:
+	echo "helloo from Makefile.2 WITH BUILDSTREAM=1"
+endif
+PYTHON2_BASE_STAMP = hola.file
