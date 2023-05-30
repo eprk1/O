@@ -1,5 +1,5 @@
 #include <iostream>
-#include <lib1/lib1-pub-header.h>
+#include <lib1/include/lib1-pub-header.h>
 
 int main(int, char **)
 {
